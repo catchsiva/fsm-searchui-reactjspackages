@@ -2,7 +2,7 @@ boto3==1.10.44
 json
 traceback
 os
-logging
+logging==0.4.9.6
 sys
 tarfile
 subprocess
