@@ -1,0 +1,9 @@
+boto3
+json
+traceback
+os
+logging
+sys
+tarfile
+subprocess
+urllib
