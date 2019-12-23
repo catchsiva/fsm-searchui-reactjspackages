@@ -6,4 +6,4 @@ logging==0.4.9.6
 sys
 tarfile
 subprocess
-urllib
+urllib==None
