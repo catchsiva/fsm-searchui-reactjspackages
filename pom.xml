@@ -9,8 +9,14 @@
     </parent>
     <modelVersion>4.0.0</modelVersion>
 
-    <artifactId>fscrawler-crawler-abstract</artifactId>
-    <name>FSCrawler Abstract Crawler</name>
+    <artifactId>fscrawler-crawler-fs</artifactId>
+    <name>FSCrawler Crawlers: FS</name>
 
+    <dependencies>
+        <dependency>
+            <groupId>fr.pilato.elasticsearch.crawler</groupId>
+            <artifactId>fscrawler-crawler-abstract</artifactId>
+        </dependency>
+    </dependencies>
 
 </project>
