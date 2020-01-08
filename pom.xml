@@ -9,13 +9,19 @@
     </parent>
     <modelVersion>4.0.0</modelVersion>
 
-    <artifactId>fscrawler-crawler-fs</artifactId>
-    <name>FSCrawler Crawlers: FS</name>
+    <artifactId>fscrawler-crawler-ssh</artifactId>
+    <name>FSCrawler Crawlers: SSH</name>
 
     <dependencies>
         <dependency>
             <groupId>fr.pilato.elasticsearch.crawler</groupId>
             <artifactId>fscrawler-crawler-abstract</artifactId>
+        </dependency>
+
+        <!--Dependency for parsing remote ssh directory [http://www.jcraft.com/jsch/]-->
+        <dependency>
+            <groupId>com.jcraft</groupId>
+            <artifactId>jsch</artifactId>
         </dependency>
     </dependencies>
 
