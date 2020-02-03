@@ -1,19 +1,20 @@
 {
   "dependencies": {
-    "react-expand-collapse": "latest",
-    "react-dom": "16.8.6",
-    "react": "16.8.6",
-    "antd": "^3.6.6",
-    "@appbaseio/reactivesearch": "3.0.0-rc.18",
-	"react-scripts": "1.0.0"
+    "atob": "^2.1.2",
+    "body-parser": "^1.19.0",
+    "constantinople": "^4.0.1",
+    "cookie-parser": "^1.4.4",
+    "cors": "^2.8.5",
+    "debug": "^4.1.1",
+    "express": "^4.17.1",
+    "jquery": "^3.4.1",
+    "morgan": "^1.9.1",
+    "node-fetch": "^2.6.0",
+    "node-redshift": "^0.1.5",
+    "pug": "^2.0.4",
+    "serve-favicon": "^2.5.0"
   },
   "name": "sample",
   "description": "sample",
-  "version": "0.0.0",
-  "scripts": {
-    "start": "react-scripts start",
-    "build": "react-scripts build",
-    "test": "react-scripts test --env=jsdom",
-    "eject": "react-scripts eject"
-  }
+  "version": "0.0.0"
 }
